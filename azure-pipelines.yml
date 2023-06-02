@@ -1,8 +1,3 @@
-# ASP.NET Core (.NET Framework)
-# Build and test ASP.NET Core projects targeting the full .NET Framework.
-# Add steps that publish symbols, save build artifacts, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
 trigger:
 - '*'
 
@@ -45,5 +40,9 @@ steps:
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration Release'
+<<<<<<< HEAD
     projects: '**/*.csproj'
     
+=======
+    projects: '**/*.csproj'
+>>>>>>> 0668ccd85b1c9735255425b0434691b25d92215b
