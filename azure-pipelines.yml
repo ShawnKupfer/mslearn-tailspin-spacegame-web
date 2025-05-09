@@ -1,3 +1,6 @@
-pool: MyAgentPool
+pool:
+  vmImage: 'ubuntu-20.04'
+  demands:
+  - npm
 steps:
 - bash: echo hello world
